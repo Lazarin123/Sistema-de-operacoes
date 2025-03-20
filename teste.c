@@ -73,5 +73,5 @@ setlocale(LC_ALL, "portuguese");
         printf("Seu resultado da divisão entre %d e %d é: %d\n", n1, n2, divisao);
     }
 
-    printf("Muito obrigado por usar nosso sistema de operações!!");
+    printf("Muito obrigado por usar nosso sistema de operações!");
 }
