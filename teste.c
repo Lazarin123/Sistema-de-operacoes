@@ -67,10 +67,10 @@ setlocale(LC_ALL, "portuguese");
     }
     else  if (operacao == 3)
     {
-        printf("Seu resultado da multiplicação é: %f\n", multi);
+        printf("Seu resultado da multiplicação é: %d\n", multi);
     }
     else if (operacao == 4) {
-        printf("Seu resultado da divisão entre %d e %d é: %f\n", n1, n2, divisao);
+        printf("Seu resultado da divisão entre %d e %d é: %d\n", n1, n2, divisao);
     }
 
     printf("Muito obrigado por usar nosso sistema de operações!!");
