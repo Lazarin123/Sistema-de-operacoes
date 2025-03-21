@@ -1,14 +1,12 @@
 #include <stdio.h>
-#include <locale.h>
 
 int main () {
-setlocale(LC_ALL, "portuguese");
 
     printf("\n\n");
     printf("          P  /_\\  P                              \n");
     printf("         /_\\_|_|_/_\\                            \n");
     printf("     n_n | ||. .|| | n_n         Bem vindo ao     \n");
-    printf("     |_|_|nnnn nnnn|_|_|   Nosso sistema de operações \n");
+    printf("     |_|_|nnnn nnnn|_|_|   Nosso sistema de operacoes \n");
     printf("    |\" \"|  |_|  |\" \"|                         \n");
     printf("    |_____| ' _ ' |_____|                         \n");
     printf("          \\__|_|__/                              \n");
@@ -19,14 +17,14 @@ setlocale(LC_ALL, "portuguese");
 
     int operacao;
 
-    printf("(1) soma (2) subtração (3) multiplicação (4) divisão\n");
+    printf("(1) soma (2) subtracao (3) multiplicacao (4) divisao\n");
     printf("Qual operação deseja fazer? \n");
     scanf("%d", &operacao);
 
-    printf("Digite um número: \n");
+    printf("Digite um numero: \n");
     scanf("%d", &n1);
 
-    printf("Digite outro número número: \n");
+    printf("Digite outro numero: \n");
     scanf("%d", &n2);
 
     int soma;
@@ -48,12 +46,12 @@ setlocale(LC_ALL, "portuguese");
         if (n2 != 0) {
             divisao = n1 / n2;	
         } else {
-            printf("Erro: divisão por zero!\n");
+            printf("Erro: divisao por zero!\n");
             return 1;
         }
         break;
         default:
-            printf("Operação Inválida!\n");
+            printf("Operação Invalida!\n");
             return 1;
     }
 
@@ -63,15 +61,15 @@ setlocale(LC_ALL, "portuguese");
     }
     else  if (operacao == 2)
     {
-        printf("Seu resultado da subtração entre %d e %d é: %d\n", n1, n2, menos);
+        printf("Seu resultado da subtracao entre %d e %d é: %d\n", n1, n2, menos);
     }
     else  if (operacao == 3)
     {
-        printf("Seu resultado da multiplicação é: %d\n", multi);
+        printf("Seu resultado da multiplicacao é: %d\n", multi);
     }
     else if (operacao == 4) {
-        printf("Seu resultado da divisão entre %d e %d é: %d\n", n1, n2, divisao);
+        printf("Seu resultado da divisao entre %d e %d é: %d\n", n1, n2, divisao);
     }
 
-    printf("Muito obrigado por usar nosso sistema de operações!");
+    printf("Muito obrigado por usar nosso sistema de operacoes!");
 }
